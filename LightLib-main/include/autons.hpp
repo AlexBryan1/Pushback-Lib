@@ -40,6 +40,8 @@ void delayed_split();
 void seven_two_left();
 void seven_two_right();
 
+void partner_sawp();
+
 void rush_left();           // rush route — left start
 void rush_right();          // rush route — right start
 

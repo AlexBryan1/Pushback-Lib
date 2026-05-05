@@ -16,6 +16,7 @@
 // └─────────────────────────────────────────────────────────────────────────┘
 
 void register_autons() {
+    light::auton_selector.add("Secret",           "6 mid rush, one time auton to suprise opponents", skills);
     light::auton_selector.add("L 7",              "7 balls in long goal, gains control", sevenball_left);
     light::auton_selector.add("R 7",              "7 balls in long goal, gains control", sevenball_right);
     light::auton_selector.add("L 6/3 Long",       "3 in mid then anti lever then 6 in long", delayed_split);
@@ -26,4 +27,5 @@ void register_autons() {
     light::auton_selector.add("R 7/2 Delayed",    "7 ball then go to mid after delay", seven_two_right);
     light::auton_selector.add("Secret",           "6 mid rush, one time auton to suprise opponents", rush_mid_left);
     light::auton_selector.add("Skills",           "102 max, realistically not even hitting 80 lol", skills);
+    light::auton_selector.add("Partner SAWP",           "goes forward into wall", partner_sawp);
 }
